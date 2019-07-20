@@ -10,6 +10,7 @@
 
 #include "problem_1.hpp"
 #include "problem_2.hpp"
+#include "problem_3.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -17,7 +18,7 @@ int main(int argc, const char * argv[]) {
     boost::program_options::options_description desc("Allowed options");
     desc.add_options()
     ("help", "produce help message")
-    ("problem-id", boost::program_options::value(&problem_id)->default_value(2), "project euler problem id");
+    ("problem-id", boost::program_options::value(&problem_id)->default_value(3), "project euler problem id");
     
     boost::program_options::variables_map vm;
     boost::program_options::store(boost::program_options::parse_command_line(argc, argv, desc), vm);
@@ -43,9 +44,19 @@ int main(int argc, const char * argv[]) {
             std::cout << "Solution of problem two is "
             << problem_two() << std::endl;
         }
+        else if (problem_id == 3)
+        {
+            std :: cout << "Solution of problem three is "
+            << problem_three() << std::endl;
+        }
+        else
+        {
+            std::cout << "NOT IMPLEMENTED for problem id " << problem_id;
+        }
     } else {
-        std::cout << "Priject Euler Problem Id was not set.\n";
+        std::cout << "Project Euler Problem Id was not set.\n";
     }
+    
     
     return 0;
 }

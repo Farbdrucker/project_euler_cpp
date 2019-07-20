@@ -10,6 +10,7 @@
 		05C1E79222E2FF34008388FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E79122E2FF34008388FD /* main.cpp */; };
 		05C1E79A22E30864008388FD /* problem_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E79822E30864008388FD /* problem_1.cpp */; };
 		05C1E79D22E3115C008388FD /* problem_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E79B22E3115C008388FD /* problem_2.cpp */; };
+		05C1E7A022E31C81008388FD /* problem_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E79E22E31C81008388FD /* problem_3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		05C1E79922E30864008388FD /* problem_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = problem_1.hpp; sourceTree = "<group>"; };
 		05C1E79B22E3115C008388FD /* problem_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = problem_2.cpp; sourceTree = "<group>"; };
 		05C1E79C22E3115C008388FD /* problem_2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = problem_2.hpp; sourceTree = "<group>"; };
+		05C1E79E22E31C81008388FD /* problem_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = problem_3.cpp; sourceTree = "<group>"; };
+		05C1E79F22E31C81008388FD /* problem_3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = problem_3.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				05C1E79922E30864008388FD /* problem_1.hpp */,
 				05C1E79B22E3115C008388FD /* problem_2.cpp */,
 				05C1E79C22E3115C008388FD /* problem_2.hpp */,
+				05C1E79E22E31C81008388FD /* problem_3.cpp */,
+				05C1E79F22E31C81008388FD /* problem_3.hpp */,
 			);
 			path = Euler;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05C1E79222E2FF34008388FD /* main.cpp in Sources */,
+				05C1E7A022E31C81008388FD /* problem_3.cpp in Sources */,
 				05C1E79A22E30864008388FD /* problem_1.cpp in Sources */,
 				05C1E79D22E3115C008388FD /* problem_2.cpp in Sources */,
 			);
