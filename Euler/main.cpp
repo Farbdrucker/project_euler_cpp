@@ -58,7 +58,7 @@ int main(int argc, const char * argv[]) {
         std::cout << "Project Euler Problem Id was not set.\n";
     }
     
-    int n_digits=2;
+    int n_digits=3;
     int palindrom, left, right;
     bool got_palindrome;
     got_palindrome = problem_four(n_digits, palindrom, left, right);
