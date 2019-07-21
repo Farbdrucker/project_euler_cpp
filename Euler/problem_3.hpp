@@ -12,4 +12,6 @@
 #include <stdio.h>
 int problem_three();
 void print_primes();
+int reverse_number(int);
+
 #endif /* problem_3_hpp */

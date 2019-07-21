@@ -5,7 +5,7 @@
 //  Created by Lukas Sanner on 20.07.19.
 //  Copyright © 2019 Lukas Sanner. All rights reserved.
 //
-#include <Eigen/Core>
+//#include <Eigen/Core>
 #include "problem_1.hpp"
 #include <iostream>
 
@@ -19,7 +19,7 @@ int find_the_sum_of_all_the_multiples_of_factors(unsigned int size, Eigen::Vecto
     {
         for(int j=0; j < number_of_factors; j++)
         {
-            if (i % factors[j] == 0)
+            if (i % factors(j) == 0)
             {
                 sum += i;
             }

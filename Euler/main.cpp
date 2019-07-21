@@ -11,6 +11,7 @@
 #include "problem_1.hpp"
 #include "problem_2.hpp"
 #include "problem_3.hpp"
+#include "problem_4.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -18,7 +19,7 @@ int main(int argc, const char * argv[]) {
     boost::program_options::options_description desc("Allowed options");
     desc.add_options()
     ("help", "produce help message")
-    ("problem-id", boost::program_options::value(&problem_id)->default_value(3), "project euler problem id");
+    ("problem-id", boost::program_options::value(&problem_id)->default_value(1), "project euler problem id");
     
     boost::program_options::variables_map vm;
     boost::program_options::store(boost::program_options::parse_command_line(argc, argv, desc), vm);
@@ -57,6 +58,10 @@ int main(int argc, const char * argv[]) {
         std::cout << "Project Euler Problem Id was not set.\n";
     }
     
-    
+    int n_digits=2;
+    int palindrom, left, right;
+    bool got_palindrome;
+    got_palindrome = problem_four(n_digits, palindrom, left, right);
+    std::cout <<"Solution for P4 is " << got_palindrome<< ". Number of digits is: " << n_digits << " with palindrome: " << palindrom << " = "<< left << " x " << right << std::endl;
     return 0;
 }
