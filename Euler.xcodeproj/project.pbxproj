@@ -12,6 +12,7 @@
 		05C1E79D22E3115C008388FD /* problem_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E79B22E3115C008388FD /* problem_2.cpp */; };
 		05C1E7A022E31C81008388FD /* problem_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E79E22E31C81008388FD /* problem_3.cpp */; };
 		05C1E7A322E3A90D008388FD /* problem_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E7A122E3A90D008388FD /* problem_4.cpp */; };
+		05F2D0F322E4A83100E9B8D9 /* problem_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F2D0F122E4A83100E9B8D9 /* problem_5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,8 @@
 		05C1E7A122E3A90D008388FD /* problem_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = problem_4.cpp; sourceTree = "<group>"; };
 		05C1E7A222E3A90D008388FD /* problem_4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = problem_4.hpp; sourceTree = "<group>"; };
 		05C1E7A522E45859008388FD /* util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = util.hpp; sourceTree = "<group>"; };
+		05F2D0F122E4A83100E9B8D9 /* problem_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = problem_5.cpp; sourceTree = "<group>"; };
+		05F2D0F222E4A83100E9B8D9 /* problem_5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = problem_5.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				05C1E79F22E31C81008388FD /* problem_3.hpp */,
 				05C1E7A122E3A90D008388FD /* problem_4.cpp */,
 				05C1E7A222E3A90D008388FD /* problem_4.hpp */,
+				05F2D0F122E4A83100E9B8D9 /* problem_5.cpp */,
+				05F2D0F222E4A83100E9B8D9 /* problem_5.hpp */,
 				05C1E7A522E45859008388FD /* util.hpp */,
 			);
 			path = Euler;
@@ -145,6 +150,7 @@
 				05C1E79A22E30864008388FD /* problem_1.cpp in Sources */,
 				05C1E79D22E3115C008388FD /* problem_2.cpp in Sources */,
 				05C1E7A322E3A90D008388FD /* problem_4.cpp in Sources */,
+				05F2D0F322E4A83100E9B8D9 /* problem_5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

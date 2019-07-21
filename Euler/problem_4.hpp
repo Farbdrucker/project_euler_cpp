@@ -10,5 +10,5 @@
 #define problem_4_hpp
 
 #include <stdio.h>
-bool problem_four(int number_of_digits, int &palindrom, int &left, int &right);
+bool problem_four(int , int &, int &, int &);
 #endif /* problem_4_hpp */
