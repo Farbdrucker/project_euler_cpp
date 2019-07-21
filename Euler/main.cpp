@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
     boost::program_options::options_description desc("Allowed options");
     desc.add_options()
     ("help", "produce help message")
-    ("problem-id", boost::program_options::value(&problem_id)->default_value(1), "project euler problem id");
+    ("problem-id", boost::program_options::value(&problem_id)->default_value(4), "project euler problem id");
     
     boost::program_options::variables_map vm;
     boost::program_options::store(boost::program_options::parse_command_line(argc, argv, desc), vm);
@@ -50,6 +50,14 @@ int main(int argc, const char * argv[]) {
             std :: cout << "Solution of problem three is "
             << problem_three() << std::endl;
         }
+        else if (problem_id == 4)
+        {
+            int n_digits=3;
+            int palindrom, left, right;
+            bool got_palindrome;
+            got_palindrome = problem_four(n_digits, palindrom, left, right);
+            std::cout <<"Number of digits is: " << n_digits << " with palindrome: " << palindrom << " = "<< left << " x " << right << std::endl;
+        }
         else
         {
             std::cout << "NOT IMPLEMENTED for problem id " << problem_id;
@@ -58,10 +66,6 @@ int main(int argc, const char * argv[]) {
         std::cout << "Project Euler Problem Id was not set.\n";
     }
     
-    int n_digits=3;
-    int palindrom, left, right;
-    bool got_palindrome;
-    got_palindrome = problem_four(n_digits, palindrom, left, right);
-    std::cout <<"Solution for P4 is " << got_palindrome<< ". Number of digits is: " << n_digits << " with palindrome: " << palindrom << " = "<< left << " x " << right << std::endl;
+
     return 0;
 }

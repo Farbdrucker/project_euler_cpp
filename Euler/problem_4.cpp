@@ -107,11 +107,9 @@ bool problem_four(int number_of_digits, int &palindrom, int &left, int &right)
     {
         if (is_palindrome(k))
         {
-            std::cout << k << std::endl;
             got_solution = is_divided(k, number_of_digits, left, right);
             if (left * right == k)
             {
-                std::cout << left << " * " << right << " = " << k << std::endl;
                 palindrom = k;
                 return true;
             }
